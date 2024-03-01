@@ -1,0 +1,47 @@
+body{
+    background-color: aliceblue;
+}
+
+header{
+    background-color: rgb(177, 228, 228);
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    display: inline-block;
+    padding: 0;
+}
+
+nav{
+    margin-top: 10px;
+}
+
+a{
+    margin-right: 15px;
+}
+
+div{
+position: relative;
+text-align: center;
+}
+
+p{
+font-size: 16px;
+}
+
+footer{
+    margin-top: 20px;
+    background-color: rgb(177, 228, 228);
+    color: #000000;
+    padding: 8px;
+    text-align: center;
+}
+
