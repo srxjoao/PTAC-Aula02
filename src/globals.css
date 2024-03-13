@@ -1,5 +1,5 @@
 body{
-    background-color: #FFEDD2;
+    background-color: #FFEBCC;
 }
 
 header{
@@ -7,6 +7,7 @@ header{
     color: #000000;
     padding: 35px;
     text-align: center;
+    width:100%;
 }
 
 ul{
@@ -41,7 +42,7 @@ font-size: 17px;
 .oqr{
   margin:20px 20px 20px 20px ;
   display: inline-block;
-  background-color: #FFBBA6;
+  background-color: #95BDDB;
   height:250px;
   width:250px;
   padding:10px;
@@ -50,7 +51,7 @@ font-size: 17px;
   text-align:center;
 }
 .oqr2{
-    background-color:#FFBBA6;
+    background-color:#95BDDB;
     display: inline-block;
     height:250px;
     width:250px;
@@ -63,7 +64,7 @@ font-size: 17px;
 
 footer{
     margin-top: 50%;
-    background-color: #FFBBA6;
+    background-color: #95BDDB;
     color: #000000;
     padding: 8px;
     text-align: center;
