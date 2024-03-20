@@ -38,33 +38,25 @@ p{
 font-size: 17px;
 }
 
-
-.oqr{
-  margin:20px 20px 20px 20px ;
-  display: inline-block;
-  background-color: #95BDDB;
-  height:250px;
-  width:250px;
-  padding:10px;
-  border-radius:30px;
-  box-sizing:border-box;
-  text-align:center;
+input{
+    margin:5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
-.oqr2{
-    background-color:#95BDDB;
-    display: inline-block;
-    height:250px;
-    width:250px;
-    padding:10px;
-    border-radius:30px;
-    box-sizing:border-box;
-    margin:20px;
-    text-align:center;
+
+button{
+    background-color: #95BDDB;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 footer{
     margin-top: 50%;
-    background-color: #95BDDB;
+    background-color:#95BDDB;
     color: #000000;
     padding: 8px;
     text-align: center;
