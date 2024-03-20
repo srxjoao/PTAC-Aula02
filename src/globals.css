@@ -39,10 +39,9 @@ font-size: 17px;
 }
 
 input{
-    margin:5px;
+    margin: 7px;
     padding: 10px;
     border: 1px solid #ccc;
-    border-radius: 4px;
 }
 
 button{
@@ -55,7 +54,7 @@ button{
 }
 
 footer{
-    margin-top: 50%;
+    margin-top: 80%;
     background-color:#95BDDB;
     color: #000000;
     padding: 8px;
