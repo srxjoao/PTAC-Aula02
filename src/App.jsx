@@ -6,9 +6,9 @@ export default function App(){
   return(
 
     <main>
- <Header/>
- <Main/>
-   <Footer/>
+<Header/>
+<Main/>
+<Footer/>
     </main>
     );
 }
