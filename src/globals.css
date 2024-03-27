@@ -44,7 +44,7 @@ input{
     border: 1px solid #ccc;
 }
 
-button{
+form button{
     background-color: #95BDDB;
     color: #000000;
     padding: 10px 20px;
