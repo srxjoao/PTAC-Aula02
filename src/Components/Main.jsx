@@ -3,6 +3,8 @@ import { useState } from "react";
 export default function Main(){
     const[name, setNome] = useState ("");
     const [Tel, setTel] = useState ("");
+    const [Email,setEmail] = useState ("");
+
     const [listaContatos,setListaContatos] = useState([]);
     
     const registar = (event) => {
@@ -11,7 +13,8 @@ export default function Main(){
         {listaContatos}
         setListaContatos([...listaContatos,{
             CriarContato:name,
-            AdicionarTelefone:Tel
+            AdicionarTelefone:Tel,
+            AdicionarEmail:Email
         }])
     };
 
@@ -19,23 +22,35 @@ export default function Main(){
 
     return(
         <main>
-            <form action="" onSubmit={registar} >
+            <form  className="form-container" action="" onSubmit={registar} >
                 <label htmlFor="nome">Nome:</label>
             <input
+            placeholder="Nome"
                 type="text"
                 name=""
                 id=""
                 onChange={(event)=> setNome(event.target.value)}
             />
-
-            <input
+            <input 
+            placeholder="Telefone"
             type="tel"
             name=""
             id=""
             onChange={(event)=> setTel(event.target.value)}
             />
+
+                            <label htmlFor="email"></label>
+                            <input
+                            placeholder="Email"
+                type="email"
+                name=""
+                id=""
+                onChange={(event)=> setEmail(event.target.value)}
+            />
+
             {name}
             {Tel}
+            {Email}
             <button>
                 Cadastrar Contato
             </button>

@@ -54,6 +54,7 @@ form button{
 }
 
 form{
+    display: grid;
     margin:1%;
     background-color: #ccc;
     padding: 10px 20px;
