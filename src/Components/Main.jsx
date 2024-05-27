@@ -16,8 +16,20 @@ export default function Main(){
             AdicionarTelefone:Tel,
             AdicionarEmail:Email
         }])
-    };
+    }
 
+    const remover = (id) => {
+        const novaLista = listaContatos.filter(
+            (contato, index)=>{
+                if(index !== id){
+                    return contato
+                }else{
+                    return null;
+                }
+            }
+        );
+        setListaContatos(novaLista)
+    }
     console.table(listaContatos)
 
     return(
@@ -51,12 +63,18 @@ export default function Main(){
             {name}
             {Tel}
             {Email}
-            <button>
+            <button className="cadastrar-contact-bnt">
                 Cadastrar Contato
             </button>
             </form>
+            {listaContatos.map((contato, index)=>
+            <div key={index}>
+                <p>{contato.nomeSalvo}</p>
+                <p>{contato.teleoneSalvo}</p>
+                <button className="remove-contact-btn" onClick={() => remover(index)}>Remover Contato</button>
+            </div>
+            )}
         </main>
-           
-        
+   
     );
 }
